@@ -42,6 +42,9 @@ android {
 }
 
 dependencies {
+    implementation (libs.play.services.maps.v1802)
+    implementation (libs.google.android.maps.utils)
+    implementation (libs.gson)
     implementation (libs.play.services.maps)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.core.ktx)
